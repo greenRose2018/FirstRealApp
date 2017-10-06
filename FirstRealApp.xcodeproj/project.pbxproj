@@ -35,6 +35,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B63174EF1F87D97B00315AE9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B652DCAC1F87C70C00584DED /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B63174F01F87D99100315AE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B652DCA01F87C70C00584DED /* AppDelegate.swift */,
+				B652DCA21F87C70C00584DED /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B652DC941F87C70C00584DED = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +71,11 @@
 		B652DC9F1F87C70C00584DED /* FirstRealApp */ = {
 			isa = PBXGroup;
 			children = (
-				B652DCA01F87C70C00584DED /* AppDelegate.swift */,
-				B652DCA21F87C70C00584DED /* ViewController.swift */,
+				B63174F01F87D99100315AE9 /* Controller */,
 				B652DCA41F87C70C00584DED /* Main.storyboard */,
 				B652DCA71F87C70C00584DED /* Assets.xcassets */,
 				B652DCA91F87C70C00584DED /* LaunchScreen.storyboard */,
-				B652DCAC1F87C70C00584DED /* Info.plist */,
+				B63174EF1F87D97B00315AE9 /* Settings */,
 			);
 			path = FirstRealApp;
 			sourceTree = "<group>";
