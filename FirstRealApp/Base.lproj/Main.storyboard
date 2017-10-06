@@ -18,12 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gj6-dt-zFE">
-                                <rect key="frame" x="164" y="285" width="46" height="30"/>
+                                <rect key="frame" x="138" y="318" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Pretty Btn">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.50196081400000003" alpha="0.78175834759999996" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="firstMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Sb-b0-uCg"/>
-                                    <action selector="firstMetod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IjR-Jr-Cep"/>
+                                    <action selector="firstMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfc-a4-2pO"/>
                                 </connections>
                             </button>
                         </subviews>

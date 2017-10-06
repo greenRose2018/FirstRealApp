@@ -19,6 +19,14 @@ class ViewController: UIViewController
     }
     @IBAction func firstMethod(_ sender: UIButton)
     {
+        if (firstButton.backgroundColor == .black)
+        {
+            firstButton.backgroundColor = .orange
+        }
+        else
+        {
+            firstButton.backgroundColor = .black
+        }
         
     }
     override func didReceiveMemoryWarning()
